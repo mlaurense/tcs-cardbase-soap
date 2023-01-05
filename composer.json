@@ -1,0 +1,16 @@
+{
+    "name": "epartment/tcs-cardbase-soap",
+    "description": "Package generated from https://test-ws.tcs-cms.nl/v4/Giftcard.svc?singleWsdl using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=7.4",
+        "ext-dom": "*",
+        "ext-mbstring": "*",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "./src/"
+        }
+    }
+}
